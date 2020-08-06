@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+}
+table{
+	border-collapse: collapse;
+	display: none;
+	width: 300px;
+	height: 300px;
+}
+tr,td{
+	border:1px solid black;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+td:hover{
+	background-color: aqua;
+}
+#bashla{
+	cursor: pointer;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	color: white;
+	margin: 150px auto;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 150px;
+	font-size: 50px;
+	padding: 20px;
+}
+.x{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	background-color: rgb(0, 255, 13);
+	padding: 20px;
+	position: absolute;
+	top: 150px;
+	left: 200px;
+}
+.o{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	background-color: rgb(0, 255, 13);
+	padding: 20px;
+	display: inline-block;
+	position: absolute;
+	top: 150px;
+	right: 200px;
+}
+.x h1{
+	color: blue;
+	font-size: 70px;
+}
+.o h1{
+	color: orangered;
+	font-size: 70px;
+}
+.x input,.o input{
+	width: 150px;
+	height: 40px;
+	font-size: 18px;
+	padding: 5px;
+	border: none;
+	outline: none;
+}
+.xal1{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	color: white;
+	font-size: 50px;
+	line-height: 100px;
+	position: absolute;
+	left: 250px;
+	top: 350px;
+	text-align: center;
+}
+.xal2{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	color: white;
+	font-size: 50px;
+	line-height: 100px;
+	position: absolute;
+	right: 250px;
+	top: 350px;
+	text-align: center;
+}
+#input1,#input2{
+	display: none;
+	width: 150px;
+	height: 40px;
+	font-size: 18px;
+	padding: 5px;
+	border: none;
+	background-color: white;
+	line-height: 30px;
+}
+div.elan{
+	display: none;
+	width: 250px;
+	height: 75px;
+	font-size: 25px;
+	background-color: red;
+	text-align: center;
+	line-height: 75px;
+}
+
